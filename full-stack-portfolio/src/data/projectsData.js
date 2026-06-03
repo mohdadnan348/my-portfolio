@@ -1,0 +1,48 @@
+// src/data/projectsData.js
+export const projects = [
+  {
+    id: 1,
+    title: "ProShipStar",
+    description: "Modern logistics platform frontend with interactive UI components, shipment management, analytics dashboards, and optimized user experience for logistics operations.",
+    techTags: ["React.js", "Tailwind CSS", "JavaScript", "EmailJS", "Responsive Design"],
+    imageUrl: "https://images.unsplash.com/photo-1606964212858-c215029db704?w=400&h=300&fit=crop",
+    liveUrl: "https://www.proshipstar.com/",
+    githubUrl: "https://github.com/mohdadnan348/prestar",
+  },
+  {
+    id: 2,
+    title: "Aylish Salon Management",
+    description: "Full-stack salon management with appointment booking, service management, admin panel, WhatsApp integration, and EmailJS notifications.",
+    techTags: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "EmailJS", "Admin Panel"],
+    imageUrl: "https://i.pinimg.com/1200x/c2/cf/69/c2cf69d4eccc8689fe719fb2b3692095.jpg",
+    liveUrl: "https://salon-dun.vercel.app/",
+    githubUrl: "https://github.com/mohdadnan348/salon",
+  },
+  {
+    id: 3,
+    title: "Kheth Spices",
+    description: "Responsive eCommerce frontend for spices with product showcase, category sections, and EmailJS contact form.",
+    techTags: ["React.js", "Tailwind CSS", "JavaScript", "EmailJS", "Responsive Design"],
+    imageUrl: "https://t4.ftcdn.net/jpg/01/86/45/63/360_F_186456306_crFfy6WlvrBmJkqzJCpmDP9CGjSvUAHx.jpg",
+    liveUrl: "https://khethspices.com",
+    githubUrl: "https://github.com/mohdadnan348/khethspices",
+  },
+  {
+    id: 4,
+    title: "School ERP – One_tab (Internship - React Native)",
+    description: "Mobile school management system with role-based access – Admin, Faculty, Parents, Students. Features: fees management, attendance tracking, result generation, and class scheduling. Built with React Native for cross-platform mobile experience.",
+    techTags: ["React Native", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
+    imageUrl: "https://www.shutterstock.com/image-photo/businessman-erp-software-enterprise-resource-260nw-2370541891.jpg",
+    liveUrl: "#",
+    githubUrl: "https://github.com/brainiactrainingcentre/One_tab",
+  },
+  {
+    id: 5,
+    title: "DeepGlam – B2B Clothing Platform (Internship - React Native)",
+    description: "B2B e-commerce mobile app for cloth business with multi-role system – Employee, Seller, Buyer, Admin. Features: product listing, order management, inventory, and role-based dashboards. Cross-platform React Native app.",
+    techTags: ["React Native", "Node.js", "Express", "MongoDB", "Cloudinary", "Tailwind CSS"],
+    imageUrl: "https://imageio.forbes.com/specials-images/imageserve/5e0e4024ab5be6000762d078/0x0.jpg?format=jpg&crop=595,335,x0,y33,safe&height=900&width=1600&fit=bounds",
+    liveUrl: "#",
+    githubUrl: "https://github.com/brainiactrainingcentre/deepglam",
+  },
+];
