@@ -6,6 +6,7 @@ import { FiHeart, FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi
 const Footer = ({ scrollToSection, refs }) => {
   const currentYear = new Date().getFullYear();
   
+  
   const quickLinks = [
     { name: 'Home', ref: refs.homeRef },
     { name: 'Skills', ref: refs.skillsRef },

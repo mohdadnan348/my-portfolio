@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Background3D from './components/Background3D';
 
+
 function App() {
   const homeRef = useRef(null);
   const skillsRef = useRef(null);
