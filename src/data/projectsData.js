@@ -54,4 +54,13 @@ export const projects = [
     liveUrl: "#",
     githubUrl: "https://github.com/brainiactrainingcentre/deepglam",
   },
+  {
+  "id": 7,
+  "title": "Maa Furniture – Business Website for Local Carpentry Brand",
+  "description": "Full-stack business website for a local furniture and interior brand based in Kanpur. Includes lead generation, project gallery, WhatsApp/Call integration, Google Business Profile sync, and SEO-friendly structure. Built with Next.js and TypeScript for performance and scalability.",
+  "techTags": ["Next.js", "TypeScript", "EmailJS", "Vercel", "CSS", "React Icons"],
+  "imageUrl": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnVybml0dXJlfGVufDB8fDB8fHww",
+  "liveUrl": "https://maafurniture.in",
+  "githubUrl": "https://github.com/mohdadnan348/furniture",
+},
 ];
