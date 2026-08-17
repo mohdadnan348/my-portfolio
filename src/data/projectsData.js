@@ -1,66 +1,241 @@
-// src/data/projectsData.js
-export const projects = [
+// src/data/skillsData.js
+
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiPostgresql,
+  SiPrisma,
+  SiDocker,
+  SiAmazonwebservices,
+  SiOpenai,
+  SiGoogle,
+  SiGit,
+  SiGithub,
+  SiPostman,
+  SiSwagger,
+  SiVercel,
+  SiRender,
+  SiCloudinary,
+} from 'react-icons/si';
+
+import { VscVscode } from 'react-icons/vsc';
+
+export const skillCategories = [
   {
-    id: 1,
-    title: "ResumeAI Pro",
-    description: "AI-powered ATS resume scoring system that analyzes resumes and provides real-time feedback. Features include ATS score (0-100), role match percentage, missing keywords detection, strengths/weaknesses analysis, priority-based improvement suggestions with project ideas, and downloadable PDF reports.",
-    techTags: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Express.js", "PostgreSQL", "Prisma", "DeepSeek AI", "Vercel", "Render"],
-    imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop",
-    liveUrl: "https://resume-ai-pro-livid.vercel.app/",
-    githubUrl: "https://github.com/mohdadnan348/ResumeAIPro",
+    title: 'Frontend',
+    skills: [
+      {
+        name: 'HTML5',
+        percent: 85,
+        icon: SiHtml5,
+        color: '#E34F26',
+      },
+      {
+        name: 'CSS3',
+        percent: 85,
+        icon: SiCss3,
+        color: '#1572B6',
+      },
+      {
+        name: 'JavaScript',
+        percent: 90,
+        icon: SiJavascript,
+        color: '#F7DF1E',
+      },
+      {
+        name: 'TypeScript',
+        percent: 85,
+        icon: SiTypescript,
+        color: '#3178C6',
+      },
+      {
+        name: 'React.js',
+        percent: 95,
+        icon: SiReact,
+        color: '#61DAFB',
+      },
+      {
+        name: 'React Native',
+        percent: 90,
+        icon: SiReact,
+        color: '#61DAFB',
+      },
+      {
+        name: 'Next.js',
+        percent: 90,
+        icon: SiNextdotjs,
+        color: '#ffffff',
+      },
+      {
+        name: 'Tailwind CSS',
+        percent: 92,
+        icon: SiTailwindcss,
+        color: '#06B6D4',
+      },
+    ],
   },
+
   {
-    id: 2,
-    title: "ProShipStar",
-    description: "Modern logistics platform frontend with interactive UI components, shipment management, analytics dashboards, and optimized user experience for logistics operations.",
-    techTags: ["React.js", "Tailwind CSS", "JavaScript", "EmailJS", "Responsive Design"],
-    imageUrl: "https://images.unsplash.com/photo-1606964212858-c215029db704?w=400&h=300&fit=crop",
-    liveUrl: "https://www.proshipstar.com/",
-    githubUrl: "https://github.com/mohdadnan348/prestar",
+    title: 'Backend',
+    skills: [
+      {
+        name: 'Node.js',
+        percent: 92,
+        icon: SiNodedotjs,
+        color: '#339933',
+      },
+      {
+        name: 'Express.js',
+        percent: 90,
+        icon: SiExpress,
+        color: '#ffffff',
+      },
+      {
+        name: 'REST APIs',
+        percent: 90,
+        icon: SiSwagger,
+        color: '#85EA2D',
+      },
+      {
+        name: 'MongoDB',
+        percent: 88,
+        icon: SiMongodb,
+        color: '#47A248',
+      },
+      {
+        name: 'PostgreSQL',
+        percent: 85,
+        icon: SiPostgresql,
+        color: '#4169E1',
+      },
+      {
+        name: 'Prisma ORM',
+        percent: 82,
+        icon: SiPrisma,
+        color: '#2D3748',
+      },
+      {
+        name: 'JWT / RBAC',
+        percent: 90,
+        icon: SiNodedotjs,
+        color: '#339933',
+      },
+    ],
   },
+
   {
-    id: 3,
-    title: "Aylish Salon Management",
-    description: "Full-stack salon management with appointment booking, service management, admin panel, WhatsApp integration, and EmailJS notifications.",
-    techTags: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "EmailJS", "Admin Panel"],
-    imageUrl: "https://i.pinimg.com/1200x/c2/cf/69/c2cf69d4eccc8689fe719fb2b3692095.jpg",
-    liveUrl: "https://salon-dun.vercel.app/",
-    githubUrl: "https://github.com/mohdadnan348/salon",
+    title: 'AI Integration',
+    skills: [
+      {
+        name: 'OpenAI API',
+        percent: 80,
+        icon: SiOpenai,
+        color: '#10A37F',
+      },
+      {
+        name: 'Gemini API',
+        percent: 75,
+        icon: SiGoogle,
+        color: '#4285F4',
+      },
+      {
+        name: 'DeepSeek API',
+        percent: 85,
+        icon: SiOpenai,
+        color: '#10A37F',
+      },
+    ],
   },
+
   {
-    id: 4,
-    title: "Kheth Spices",
-    description: "Responsive eCommerce frontend for spices with product showcase, category sections, and EmailJS contact form.",
-    techTags: ["React.js", "Tailwind CSS", "JavaScript", "EmailJS", "Responsive Design"],
-    imageUrl: "https://t4.ftcdn.net/jpg/01/86/45/63/360_F_186456306_crFfy6WlvrBmJkqzJCpmDP9CGjSvUAHx.jpg",
-    liveUrl: "https://khethspices.com",
-    githubUrl: "https://github.com/mohdadnan348/khethspices",
+    title: 'DevOps & Cloud',
+    skills: [
+      {
+        name: 'Docker',
+        percent: 75,
+        icon: SiDocker,
+        color: '#2496ED',
+      },
+      {
+        name: 'AWS',
+        percent: 60,
+        icon: SiAmazonwebservices,
+        color: '#FF9900',
+      },
+      {
+        name: 'Vercel',
+        percent: 88,
+        icon: SiVercel,
+        color: '#ffffff',
+      },
+      {
+        name: 'Render',
+        percent: 80,
+        icon: SiRender,
+        color: '#46E3B7',
+      },
+    ],
   },
+
   {
-    id: 5,
-    title: "School ERP – One_tab (Internship - React Native)",
-    description: "Mobile school management system with role-based access – Admin, Faculty, Parents, Students. Features: fees management, attendance tracking, result generation, and class scheduling. Built with React Native for cross-platform mobile experience.",
-    techTags: ["React Native", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
-    imageUrl: "https://www.shutterstock.com/image-photo/businessman-erp-software-enterprise-resource-260nw-2370541891.jpg",
-    liveUrl: "#",
-    githubUrl: "https://github.com/brainiactrainingcentre/One_tab",
+    title: 'Tools & Development',
+    skills: [
+      {
+        name: 'Git',
+        percent: 90,
+        icon: SiGit,
+        color: '#F05032',
+      },
+      {
+        name: 'GitHub',
+        percent: 90,
+        icon: SiGithub,
+        color: '#ffffff',
+      },
+      {
+        name: 'Postman',
+        percent: 85,
+        icon: SiPostman,
+        color: '#FF6C37',
+      },
+      {
+        name: 'Swagger / OpenAPI',
+        percent: 85,
+        icon: SiSwagger,
+        color: '#85EA2D',
+      },
+      {
+        name: 'VS Code',
+        percent: 90,
+        icon: VscVscode,
+        color: '#007ACC',
+      },
+    ],
   },
+
   {
-    id: 6,
-    title: "DeepGlam – B2B Clothing Platform (Internship - React Native)",
-    description: "B2B e-commerce mobile app for cloth business with multi-role system – Employee, Seller, Buyer, Admin. Features: product listing, order management, inventory, and role-based dashboards. Cross-platform React Native app.",
-    techTags: ["React Native", "Node.js", "Express", "MongoDB", "Cloudinary", "Tailwind CSS"],
-    imageUrl: "https://imageio.forbes.com/specials-images/imageserve/5e0e4024ab5be6000762d078/0x0.jpg?format=jpg&crop=595,335,x0,y33,safe&height=900&width=1600&fit=bounds",
-    liveUrl: "#",
-    githubUrl: "https://github.com/brainiactrainingcentre/deepglam",
+    title: 'Other Technologies',
+    skills: [
+      {
+        name: 'Cloudinary',
+        percent: 75,
+        icon: SiCloudinary,
+        color: '#3448C5',
+      },
+      {
+        name: 'EmailJS',
+        percent: 70,
+        icon: SiCloudinary,
+        color: '#3448C5',
+      },
+    ],
   },
-  {
-  "id": 7,
-  "title": "Maa Furniture – Business Website for Local Carpentry Brand",
-  "description": "Full-stack business website for a local furniture and interior brand based in Kanpur. Includes lead generation, project gallery, WhatsApp/Call integration, Google Business Profile sync, and SEO-friendly structure. Built with Next.js and TypeScript for performance and scalability.",
-  "techTags": ["Next.js", "TypeScript", "EmailJS", "Vercel", "CSS", "React Icons"],
-  "imageUrl": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnVybml0dXJlfGVufDB8fDB8fHww",
-  "liveUrl": "https://maafurniture.in",
-  "githubUrl": "https://github.com/mohdadnan348/furniture",
-},
 ];
