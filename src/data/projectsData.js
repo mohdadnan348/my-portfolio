@@ -63,4 +63,13 @@ export const projects = [
   "liveUrl": "https://maafurniture.in",
   "githubUrl": "https://github.com/mohdadnan348/furniture",
 },
+{
+  id: 8,
+  title: "MirexTech – Premium Software Agency Website",
+  description: "A premium, futuristic software agency website built with React 19, TypeScript, Tailwind CSS, and Framer Motion. Features include AI-powered chat assistant, glassmorphism UI, dark/light mode, i18n (English/Hindi), fully responsive design, and integration with EmailJS for contact forms. Deployed on Netlify with custom domain.",
+  techTags: ["React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite", "EmailJS", "Netlify", "i18next", "Lucide React", "React Router"],
+  imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC4nwUKhyreo6nhT0yyIiYSK3GRYJNUDOyycfAelxWsg&s=10",
+  liveUrl: "https://mirextech.in",
+  githubUrl: "https://github.com/mohdadnan348/mirex.tech",
+}
 ];
